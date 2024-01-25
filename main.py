@@ -3,6 +3,7 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
+
 API_URL = "https://api-inference.huggingface.co/models/tae898/emoberta-large"
 API_TOKEN = "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"
 
