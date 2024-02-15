@@ -6,7 +6,7 @@ def query(payload):
     response = requests.post(API_URL, headers=headers, json=payload)
     return response.json()
 data = query("Can you please let us know more details about your ")
-'''
+
 import requests
  
 API_URL = "https://api-inference.huggingface.co/models/tae898/emoberta-large"
@@ -32,3 +32,5 @@ if response.status_code == 200:
     print(rounded_result)
 else:
     print(f"Error: {response.status_code}")
+'''
+
